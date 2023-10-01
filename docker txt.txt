@@ -1,0 +1,38 @@
+docker pull <image_name>
+pull image from registry
+
+docker run <image_name>
+runs the image and makes a container from running 
+
+docker images 
+display all the images with id,creationtime
+
+docker ps 
+display all the containers which are running
+
+docker ps -a
+display all the containers created
+
+docker run -it <image_name>
+it will inject into the shell or bash or cmd of the image
+
+docker run --name <anyname> -it <image_name>
+it will gives a name to the container and injects into the image shell or bash or cmd
+
+docker start <anyname>
+it will start the container using the container name
+
+docker stop <anyname>
+it will stop the container using the container name
+
+docker pause <anyname>
+it will pause the container using the container name
+
+docker unpause <anyname>
+it will pause the container using the container name
+ 
+docker system info
+gives the details of the system and server where the docker is runnning.
+
+docker start -i <container-name>
+enters into the container console.
